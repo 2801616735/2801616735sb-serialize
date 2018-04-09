@@ -1,0 +1,25 @@
+{
+    "name": "2801616735sb/serialize1",
+    "description": "serialize package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "2801616735",
+            "email": "2801616735@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+            "psr-4": {
+	    	    "Serialize\\": "src/" 
+		    	}
+			    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
